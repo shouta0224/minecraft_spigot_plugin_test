@@ -1,0 +1,11 @@
+name: Test_spigot
+version: '${project.version}'
+main: com.github.shouta0224.test_spigot.Test_spigot
+api-version: 1.18
+authors: [ shouta0224 ]
+commands:
+  test:
+    aliases: [t]
+    description: test
+    permission-message: ah
+    usage: sippai
