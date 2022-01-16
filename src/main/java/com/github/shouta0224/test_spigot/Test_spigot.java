@@ -58,10 +58,9 @@ class CommandClass implements CommandExecutor {
     }
 }
 
-class SampleEventListenerClass implements Listener {
+public SampleEventListenerClass implements Listener {
     @EventHandler
     public void onLogin(AsyncPlayerPreLoginEvent e){
-        CommandSender.Spigot sender = null;
-            sender.sendMessage(UUID.fromString("ようこそ！"));
+        ender.sendMessage("§eようこそ！");
     }
 }
